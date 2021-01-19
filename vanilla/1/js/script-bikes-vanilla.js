@@ -8,7 +8,6 @@ var bike = [
   { 'name': 'bike-3', 'weightKg': 10}
 ]
 
-// versione giusta
 var lightBike = bike[0];
 
 for (var i = 1; i < bike.length; i++) {
@@ -18,7 +17,6 @@ for (var i = 1; i < bike.length; i++) {
 }
 
 console.log(lightBike.name + ' is the lightest bike');
-
 
 // quello che avevo fatto
 // if (bike[0].weightKg < bike[1].weightKg && bike[2].weightKg) {

@@ -21,8 +21,11 @@ for (let i = 0; i < teams.length; i++) {
   teams[i].scoredPoints = randomNumber(1, 10);
   teams[i].fouls = randomNumber(1, 10);
 }
+
 console.log(teams);
+
 const nameAndFouls = [];
+
 for (let i = 0; i < teams.length; i++) {
   let theTeam = teams[i];
   const {name, fouls} = theTeam;

@@ -8,7 +8,6 @@ const bike = [
   { 'name': 'bike-3', 'weightKg': 10}
 ]
 
-// versione giusta
 let lightBike = bike[0];
 
 for (let i = 1; i < bike.length; i++) {
