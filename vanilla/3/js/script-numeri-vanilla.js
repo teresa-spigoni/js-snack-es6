@@ -3,7 +3,7 @@
 function returnArray(array, num1, num2) {
   var newArray = [];
   for (var i = 0; i < array.length; i++) {
-    if (array.indexOf(array[i]) > array.indexOf(num1) && array.indexOf(array[i]) < array.indexOf(num2)) {
+    if (array.indexOf(array[i]) > num1 && array.indexOf(array[i]) < num2) {
       newArray.push(array[i]);
     }
   }
@@ -12,4 +12,4 @@ function returnArray(array, num1, num2) {
 
 var mainArray = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
-console.log(returnArray(mainArray, 10, 20));
+console.log(returnArray(mainArray, 2, 7));

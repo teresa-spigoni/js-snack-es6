@@ -3,7 +3,7 @@
 const returnArray = (array, num1, num2) => {
   let newArray = [];
   array.forEach((item) => {
-    if (array.indexOf(item) > array.indexOf(num1) && array.indexOf(item) < array.indexOf(num2)) {
+    if (array.indexOf(item) > num1 && array.indexOf(item) < num2) {
       newArray.push(item);
     }
   });
@@ -12,4 +12,4 @@ const returnArray = (array, num1, num2) => {
 
 const mainArray = [10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
-console.log(returnArray(mainArray, 10, 20));
+console.log(returnArray(mainArray, 2, 7));
